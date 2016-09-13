@@ -5,6 +5,8 @@ language: cpp
 python:
   - "2.7"
 
+script: ./configure && make && make -j4 test
+
 # safelist
 branches:
   only:
