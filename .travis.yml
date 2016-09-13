@@ -5,3 +5,7 @@ language: cpp
 python:
   - "2.7"
 
+# safelist
+branches:
+  only:
+    - travis
